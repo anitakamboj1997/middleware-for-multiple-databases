@@ -1,0 +1,14 @@
+ssh 
+IP 
+username
+password
+ssh username@IP
+password
+
+
+username
+IP
+password--> pem file(key file)
+
+ssh username@IP -i pemfilename
+chhmod 400 filename.pem
